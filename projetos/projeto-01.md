@@ -1,5 +1,5 @@
 # Projeto 01 - Mini Sistema de Controle de Tarefas com Login
-Projeto voltado para fixação dos conteúdos assistidos até o momento.
+Projeto voltado para fixação dos conteúdos assistidos até o momento. <br>
 Caso você queira trabalhar um tema livre, lembre-se de adicionar todas as funcionalidades aqui solicitadas.
 ## Estrutura mínima:
 - Tela 1 - Login
