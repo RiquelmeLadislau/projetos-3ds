@@ -26,9 +26,10 @@ Caso você queira trabalhar um tema livre, lembre-se de adicionar todas as funci
 - Impedir tarefas duplicadas;
 - Criar botão de "limpar concluídas".
 ## Utilize as seguintes aulas como exemplo:
-- [Aula 01](https://snack.expo.dev/@samuel.ps/aula---01)
-- [Aula 02](https://snack.expo.dev/@samuel.ps/aula---02)
-- [Aula 03](https://snack.expo.dev/@samuel.ps/aula---03)
+- [Exemplo 01](https://snack.expo.dev/@samuel.ps/aula---01) (Estrutura básica, useState e renderização condicional)
+- [Exemplo 02](https://snack.expo.dev/@samuel.ps/aula---02) (TextInput para realizar exibição condicional, como login)
+- [Exemplo 03](https://snack.expo.dev/@samuel.ps/aula---03) (Criando, exibindo e modificando objetos)
+- [Exemplo 04](https://snack.expo.dev/@samuel.ps/aula---04) (Organização de Telas com Arquivos)
 ## Tempo de entrega e pontuação:
 - 25/02/2026 a 27/02/2026 | 2,0 (valor total e ponto extra garantido)
 - 28/02/2026 a 03/03/2026 | 1,8 a 1,2 (valor parcial)
