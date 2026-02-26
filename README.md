@@ -3,10 +3,10 @@ Repositório para armazenar projetos e aulas da turma de DS 3º ano
 ## Projetos
 [Clique aqui para acessar a última atividade disponibilizada.](https://github.com/sudosamm/projetos-3ds/blob/main/projetos/projeto-01.md)
 - [Projeto 01](https://github.com/sudosamm/projetos-3ds/blob/main/projetos/projeto-01.md) (Projeto Atual | Em andamento)
-- Projeto 02
-- Projeto 03
-- Projeto 04
-- Projeto 05
+- Projeto 02 (Em construção)
+- Projeto 03 (Em construção)
+- Projeto 04 (Em construção)
+- Projeto 05 (Em construção)
 ## Pontuação
 Cada projeto terá suas funcionalidades obrigatórias e desafios extras. O projeto obrigatório será o equivalente a uma pontuação final (que ainda será definida). A pontuação final receberá decrementos de acordo com a data de entrega.
 - O projeto possui 3 janelas de datas para entrega, cada uma contendo sua pontuação;
