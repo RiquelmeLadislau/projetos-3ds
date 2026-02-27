@@ -11,7 +11,7 @@ Caso você queira trabalhar um tema livre, lembre-se de adicionar todas as funci
 - Após o login, o usuário entra na tela principal;
 - O usuário deve ser capaz de fazer logout (sair da conta);
 - As telas devem estar personalizadas com um tema criado pelo próprio usuário;
-- Quaisquer criações feitas com código base de IA ficarão sem nota.
+- Quaisquer criações feitas com código base de IA receberão decremento na nota.
 - Caso tenha trabalhado com um tema livre (lista/tarefa de jogos, de músicas e etc), descreva-o no readme.
 ## Funcionalidades obrigatórias:
 - Adicionar tarefa;
