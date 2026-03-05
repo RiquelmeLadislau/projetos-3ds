@@ -1,2 +1,0 @@
-- name: Get Timestamp Action
-  uses: nanzm/get-time-action@v2.0
