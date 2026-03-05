@@ -113,11 +113,11 @@ Durante a apresentação o aluno deve ser capaz de:
 
 ### O projeto possui prazo escalonado de entrega.
 
-| Data                          | Pontuação máxima|
-|---------------------------------|-----------------|
-| 05/03 a 07/03                   | até 2,0 pontos  |
-| 08/03 a 10/03                  | até 1,5 pontos  |
-| 11/03 a 13/03                  | até 1,0 ponto   |
+| Data          | Pontuação máxima |
+|---------------|------------------|
+| 05/03 a 13/03 | até 2,0 pontos   |
+| 14/03 a 17/03 | até 1,5 pontos   |
+| 18/03 a 19/03 | até 1,0 ponto    |
 
 A pontuação de prazo será **somada à nota da apresentação**.
 
