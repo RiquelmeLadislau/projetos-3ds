@@ -3,7 +3,7 @@ const fs = require("fs")
 const readmePath = "README.md"
 let readme = fs.readFileSync(readmePath, "utf8")
 
-function projetoAtual() {
+/*function projetoAtual() {
 
   const agora = new Date()
 
@@ -22,13 +22,13 @@ function projetoAtual() {
 
   for (const p of projetos) {
     if (agora < p.deadline) {
-      return `🚀 **${p.nome}**  
+      return `\n🚀 **${p.nome}**  
 📎 ${p.link}`
     }
   }
 
   return "Nenhum projeto ativo no momento."
-}
+}*/
 
 function tempoRestante(dataFinalISO) {
 
@@ -78,11 +78,11 @@ readme = atualizarBloco(
   `${p2}`
 )
 
-readme = atualizarBloco(
+/*readme = atualizarBloco(
   readme,
   "<!--PROJETO_START-->",
   "<!--PROJETO_END-->",
   `${pA}`
-)
+)*/
 
 fs.writeFileSync(readmePath, readme)
