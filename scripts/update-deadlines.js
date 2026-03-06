@@ -62,7 +62,7 @@ function atualizarBloco(readme, start, end, conteudo){
 
 const p1 = tempoRestante("2026-03-06T23:59:59-03:00")
 const p2 = tempoRestante("2026-03-18T23:59:59-03:00")
-const projetoAtual = projetoAtual()
+const pA = projetoAtual()
 
 readme = atualizarBloco(
   readme,
@@ -82,7 +82,7 @@ readme = atualizarBloco(
   readme,
   "<!--PROJETO_START-->",
   "<!--PROJETO_END-->",
-  `${projetoAtual}`
+  `${pA}`
 )
 
 fs.writeFileSync(readmePath, readme)
