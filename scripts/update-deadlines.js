@@ -15,16 +15,18 @@ function tempoRestante(dataFinalISO) {
   const horasTotais = Math.floor(diff / (1000 * 60 * 60))
   const dias = Math.floor(horasTotais / 24)
   const horas = horasTotais % 24
+  let mensagem;
   
   if (dias <= 0) {
-    return `Apenas ${horas} horas restantes para a entrega final!`
+    mensagem = `Apenas ${horas} horas restantes para a entrega final!`
   }
   else if (horas <=0 && dias <=0){
-    return `Projeto encerrado!!`
+    mensagem =  `Projeto encerrado!!`
   }
   else {
-    return `${dias} dias e ${horas} horas restantes para a entrega final!`
+    mensagem =  `${dias} dias e ${horas} horas restantes para a entrega final!`
   }
+  return mensagem
 }
 
 function atualizarBloco(readme, start, end, conteudo){
