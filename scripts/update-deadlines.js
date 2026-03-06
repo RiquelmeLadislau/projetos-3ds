@@ -16,11 +16,14 @@ function tempoRestante(dataFinalISO) {
   const dias = Math.floor(horasTotais / 24)
   const horas = horasTotais % 24
   
-  if (dias < 0) {
-    return `Apenas ${horas} horas restantes!`
+  if (dias <= 0) {
+    return `Apenas ${horas} horas restantes para a entrega final!`
+  }
+  else if (horas <=0 && dias <=0){
+    return `Projeto encerrado!!`
   }
   else {
-    return `${dias} dias e ${horas} horas restantes`
+    return `${dias} dias e ${horas} horas restantes para a entrega final!`
   }
 }
 
