@@ -1,8 +1,5 @@
 # Projetos 3º Desenvolvimento de Sistemas
 Repositório para armazenar projetos e aulas da turma de DS 3º ano
-## 🔥 Projeto Atual
-<!--PROJETO_START--> 🚀 **Projeto 01 - Mini Sistema de Tarefas**  
-📎 https://github.com/sudosamm/projetos-3ds/blob/main/projetos/projeto-01.md <!--PROJETO_END-->
 ## Projetos
 |Projeto | Situação |
 |--------|----------|
@@ -25,6 +22,7 @@ No terminal execute os comandos:
 - `cd nome_projeto` para navegar até a pasta do projeto.
 - Instale as dependências do android web para rodar seu projeto local sem emuladores ou dispositivos extras: `npx expo install react-dom react-native-web`.
 - Rode seu projeto na web `npm run web`.
+
 
 
 
