@@ -6,14 +6,11 @@ let readme = fs.readFileSync(readmePath, "utf8")
 function tempoRestante(dataFinalISO) {
 
   const agora = new Date()
-
   const final = new Date(dataFinalISO)
 
-  const diff = final.getTime() - agora.getTime()
+  const diff = final - agora
 
-  if (diff <= 0) {
-    return "Prazo encerrado"
-  }
+  if (diff <= 0) return "Prazo encerrado"
 
   const horasTotais = Math.floor(diff / (1000 * 60 * 60))
   const dias = Math.floor(horasTotais / 24)
@@ -27,15 +24,31 @@ function tempoRestante(dataFinalISO) {
   }
 }
 
-const deadlines = {
-  P1: "2026-03-06T23:59:59-03:00",
-  P2: "2026-03-18T23:59:59-03:00"
+function atualizarBloco(readme, start, end, conteudo){
+
+  const regex = new RegExp(`${start}[\\s\\S]*?${end}`)
+
+  return readme.replace(
+    regex,
+    `${start}\n${conteudo}\n${end}`
+  )
 }
 
-const resultadoP1 = tempoRestante(deadlines.P1)
-const resultadoP2 = tempoRestante(deadlines.P2)
+const p1 = tempoRestante("2026-03-06T23:59:59-03:00")
+const p2 = tempoRestante("2026-03-18T23:59:59-03:00")
 
-readme = readme.replace(/<!--P1-->/, `Finaliza em ${resultadoP1}`)
-readme = readme.replace(/<!--P2-->/, `Finaliza em ${resultadoP2}`)
+readme = atualizarBloco(
+  readme,
+  "<!--P1_START-->",
+  "<!--P1_END-->",
+  `${p1}`
+)
+
+readme = atualizarBloco(
+  readme,
+  "<!--P2_START-->",
+  "<!--P2_END-->",
+  `${p2}`
+)
 
 fs.writeFileSync(readmePath, readme)
