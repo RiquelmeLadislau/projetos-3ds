@@ -75,7 +75,7 @@ Ou
 
 O projeto valerá 10 pontos no total.
 
-1. Design da aplicação (2 pts)
+### 1. Design da aplicação (2 pts)
 
 Avaliação da interface do aplicativo:
 - organização visual
